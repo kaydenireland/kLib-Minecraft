@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.kallen.klib.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "entity.CreeperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

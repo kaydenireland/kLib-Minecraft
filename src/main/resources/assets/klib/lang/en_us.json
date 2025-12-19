@@ -1,0 +1,15 @@
+{
+  "klib.configuration.title": "kLib Configs",
+  "klib.configuration.section.klib.common.toml": "kLib Configs",
+  "klib.configuration.section.klib.common.toml.title": "kLib Configs",
+  "klib.configuration.items": "Item List",
+  "klib.configuration.enableCreeperChaining": "Enable Creeper Chaining",
+  "klib.configuration.logDirtBlock": "Log Dirt Block",
+  "klib.configuration.magicNumberIntroduction": "Magic Number Text",
+  "klib.configuration.magicNumber": "Magic Number",
+
+  "painting.klib.legends_never_die.title": "Legends Never Die",
+  "painting.klib.legends_never_die.author": "Jarrad Higgins",
+
+  "sounds.klib.bell": "Bell Rings"
+}

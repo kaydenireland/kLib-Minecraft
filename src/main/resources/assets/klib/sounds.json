@@ -1,0 +1,38 @@
+{
+  "bell_up": {
+    "subtitle": "sounds.klib.bell",
+    "sounds": [
+      "klib:bell/bell_up"
+    ]
+  },
+  "bell_up_sneak": {
+    "subtitle": "sounds.klib.bell",
+    "sounds": [
+      "klib:bell/bell_up_sneak"
+    ]
+  },
+  "bell_straight": {
+    "subtitle": "sounds.klib.bell",
+    "sounds": [
+      "klib:bell/bell_straight"
+    ]
+  },
+  "bell_straight_sneak": {
+    "subtitle": "sounds.klib.bell",
+    "sounds": [
+      "klib:bell/bell_straight_sneak"
+    ]
+  },
+  "bell_down": {
+    "subtitle": "sounds.klib.bell",
+    "sounds": [
+      "klib:bell/bell_down"
+    ]
+  },
+  "bell_down_sneak": {
+    "subtitle": "sounds.klib.bell",
+    "sounds": [
+      "klib:bell/bell_down_sneak"
+    ]
+  }
+}
