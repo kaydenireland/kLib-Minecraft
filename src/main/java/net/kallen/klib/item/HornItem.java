@@ -15,7 +15,7 @@ public class HornItem extends Item {
 
     private SoundEvent sound;
     public HornItem(Properties pProperties, SoundEvent sound) {
-        super(pProperties);
+        super(pProperties.stacksTo(1));
         this.sound = sound;
     }
 
