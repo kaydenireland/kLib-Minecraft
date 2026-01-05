@@ -1,6 +1,9 @@
 package net.kallen.klib.item;
 
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.ItemUseAnimation;
 import net.minecraft.world.item.ToolMaterial;
 
 public class SpearItem extends Item {
@@ -21,4 +24,16 @@ public class SpearItem extends Item {
                 knockbackTime, knockbackThreshold, damageTime, damageThreshold
         ));
     }
+
+    @Override
+    public ItemUseAnimation getUseAnimation(ItemStack stack) {
+        return ItemUseAnimation.SPEAR;
+    }
+
+    @Override
+    public int getUseDuration(ItemStack stack, LivingEntity entity) {
+        return 72000;
+    }
+
+
 }
