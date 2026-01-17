@@ -22,6 +22,7 @@ public class kLibTags {
         public static final TagKey<Item> AMETHYST_REPAIRABLE = createTag("amethyst_repairable");
         public static final TagKey<Item> ECHO_SHARD_REPAIRABLE = createTag("echo_shard_repairable");
         public static final TagKey<Item> GOAT_HORN = createTag("goat_horn");
+        public static final TagKey<Item> BELL = createTag("bell");
 
 
 
