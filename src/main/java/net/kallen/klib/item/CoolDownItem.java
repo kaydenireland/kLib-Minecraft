@@ -15,7 +15,12 @@ public class CoolDownItem extends Item {
 
     public InteractionResult applyCooldown(Level pLevel, Player pPlayer, ItemStack stack, int coolDownTime, String tag){
 
-        if (!pLevel.isClientSide() && !pPlayer.isCreative()) {
+        if (!pLevel.isClientSide()) {
+
+            if (pPlayer.isCreative()) {
+                return InteractionResult.SUCCESS;
+            }
+
             CompoundTag persistentData = pPlayer.getPersistentData();
 
             long lastUsedTime = persistentData.getLongOr(tag, 0);
